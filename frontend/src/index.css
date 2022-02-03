@@ -1,0 +1,11 @@
+* {
+  font-family: monospace, Courier, 'Courier New' !important; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #9ddfd3;
+}

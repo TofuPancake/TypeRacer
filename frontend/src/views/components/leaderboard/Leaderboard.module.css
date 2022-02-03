@@ -1,0 +1,37 @@
+.leaderboard {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background: #dbf6e9d0;
+    border-radius: 20px;
+
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 3px rgba(159, 158, 158, 0.644);
+    border-bottom: #f5f2f2 solid 0.1px;
+    border-radius: 10px;
+}
+
+.leaderboardLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: black;
+}
+
+.leaderboardLink h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.leaderboardLink h6 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+
+.leaderboardLink:hover {
+    color: purple;
+}

@@ -1,0 +1,10 @@
+.text {
+    text-align: center;
+    font-size: 200px;
+    color: white;
+    text-shadow: -2px -1px 0 rgba(47, 42, 42, 0.801),
+        5px -1px 0 rgba(47, 42, 42, 0.801),
+        -2px 1px 0 rgba(47, 42, 42, 0.801),
+        5px 1px 0 rgba(47, 42, 42, 0.801),
+        10px 8px 0 rgb(68, 55, 55, 0.3);
+}

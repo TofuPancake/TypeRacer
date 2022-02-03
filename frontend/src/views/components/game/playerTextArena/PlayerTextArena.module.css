@@ -1,0 +1,44 @@
+.player {
+  width: 50%;
+  max-height: 100%;
+}
+
+.cardContent {
+  height: 77%;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Contents of the card */
+
+.playerPlate {
+  background-color: #ffdada;;
+  height: 20%;
+}
+
+.textContainer {
+  position: absolute;
+  max-height: 20%;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.textContainer::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.gonePlayer {
+  width: 50%;
+  max-height: 100%;
+  opacity: 0.3;
+}

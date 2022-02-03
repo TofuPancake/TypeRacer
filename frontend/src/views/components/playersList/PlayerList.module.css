@@ -1,0 +1,27 @@
+.player {
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+
+    background: #ffdadac0;
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 3px rgba(159, 158, 158, 0.644);
+    border-radius: 10px;
+    border-bottom: #ffffff solid 2px;
+    border-left: #ffffff solid 3px;
+}
+
+.name {
+    text-align: center; 
+    font-size: larger;
+    font-weight: 700;
+    width: 100%;
+    padding: 1.3em;
+}
+
+.avatar {
+    padding: 1.3em 1em 1.3em 1.3em;
+}
+
+.you {
+    background: rgb(197, 197, 240);
+}

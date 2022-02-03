@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`player list renders correctly 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "audio": <audio
+        loop=""
+        preload="auto"
+        src="mock file"
+      />,
+      "firebaseUserIdToken": null,
+      "lobby": null,
+      "lobbyid": "",
+      "setLobby": [Function],
+      "setLobbyid": [Function],
+      "setUsername": [Function],
+      "username": "",
+    }
+  }
+>
+  <PlayersList />
+</Context.Provider>
+`;

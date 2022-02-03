@@ -1,0 +1,64 @@
+.game {
+    width: 100%;
+    height: 80%;
+}
+
+.inner {
+    padding: 0 40px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.wpm {
+    padding: 1.8% 2%;
+    margin: 0 0 2% 1%;
+
+    background: #ffdada;
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 3px rgba(159, 158, 158, 0.644);
+    border-radius: 5px;
+    border-bottom: #f5f2f2 solid 0.1px;
+}
+
+.name {
+    padding: 1.8% 2%;
+    margin: 0 1% 2% 0;
+
+    color: white;
+    background: rgba(73, 62, 62, 0.774);
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 3px rgba(159, 158, 158, 0.644);
+    border-radius: 5px;
+    border-bottom: #f5f2f2 solid 0.1px;
+    border-left: #f5f2f2 solid 0.1px;
+}
+
+.playerGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sabotageList {
+    display: flex;
+    padding: 0 5%;
+}
+
+.sabotage {
+    padding: 5%;
+}
+
+.help {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: grab;
+}

@@ -1,0 +1,6 @@
+.playerArena {
+  height: 100%;
+  position: relative;
+
+  justify-content: space-around;
+}

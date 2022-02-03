@@ -1,0 +1,57 @@
+.statusPlaque {
+    width: 600px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 10;
+    position: relative;
+}
+
+.iconButton {
+    width: 90px;
+}
+
+.iconButton span {
+    height: 100%;
+}
+
+.iconButton:hover {
+    transform: scale(1.05);
+}
+
+.statusBar {
+    width: 85%;
+    height: 70%;
+    align-self: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background: rgba(73, 62, 62, 0.774);
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 6px rgba(172, 136, 166, 0.671);
+    border-radius: 10px;
+    border-bottom: #f5f2f2 solid 0.1px;
+}
+
+.profileName {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 5%;
+    width: 47%;
+    align-self: center;
+}
+
+.profileActionsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 2%;
+    height: 100%;
+    width: 44%;
+    z-index: 5;
+}

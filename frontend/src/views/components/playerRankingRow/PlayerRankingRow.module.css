@@ -1,0 +1,13 @@
+.playerRankingRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+  padding: 1% 1% 1% 10%;
+  margin: 0.5%;
+
+  background: #dbf6e9;
+  box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 2px rgba(172, 136, 166, 0.671);
+  border-radius: 10px;
+  border-bottom: #f5f2f2 solid 0.1px;
+}

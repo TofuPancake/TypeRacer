@@ -1,0 +1,43 @@
+.textArena {
+    height: 100%;
+    width: 80%;
+    text-align: left;
+    padding: 10%;
+
+    font-size: large;
+    background-color: #dbf6e9;
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 6px rgba(159, 158, 158, 0.644);
+    border-radius: 10px;
+    border-bottom: #f5f2f2 solid 2px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.textArena::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+  }
+  
+
+.correctCharacter {
+    background-color: rgb(147, 255, 59);
+}
+
+.incorrectCharacter {
+    background-color: rgb(255, 82, 82);
+}
+
+.hiddenCharacter {
+    opacity: 0;
+}
+
+.toTypeCharacter { 
+    color: black;
+}

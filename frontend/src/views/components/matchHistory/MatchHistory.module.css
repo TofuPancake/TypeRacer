@@ -1,0 +1,24 @@
+.matchHistory {
+    width: 100%;
+    max-width: 50vw;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 1px 3px 0px rgb(200, 200, 200);
+
+    background: #dbf6e9;
+    box-shadow: 0 0 0 2.5px rgb(68, 55, 55), 3px 3px 0 4px rgba(172, 136, 166, 0.671);
+    border-radius: 10px;
+    border-bottom: #f5f2f2 solid 0.1px;
+}
+
+.listContainer {
+    max-height: 50vh;
+    margin-left: 5px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.title {
+    text-transform: uppercase;
+}

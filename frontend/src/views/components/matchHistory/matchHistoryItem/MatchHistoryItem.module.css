@@ -1,0 +1,46 @@
+.matchHistoryContainer {
+    align-items: center;
+    justify-content: left;
+    width: inherit;
+    display: inline;
+}
+
+.matchHistoryTitle {
+    align-self: flex-start;
+    justify-self: flex-start;
+    justify-content: space-around;
+    display: flex;
+}
+
+.gameInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textTypedContainer {
+    width: 50%;
+}
+
+.textTyped {
+    width: 100%;
+}
+
+.placeText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+}
+
+.wpmText{
+    margin-left: 3vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+}
+
+.dateText {
+    margin-left: 3vw;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    align-self: center;
+}

@@ -1,0 +1,59 @@
+.title {
+  font-size: 50px;
+  text-transform: lowercase;
+  text-shadow: -1px -2px 0 rgba(68, 55, 55, 0.2),
+              1px -2px 0 rgb(68, 55, 55, 0.2), 
+              -1px 2px 0 rgb(68, 55, 55, 0.2),
+              1px 2px 0 rgb(68, 55, 55, 0.2);
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1.5%;
+  padding-right: 12%;
+}
+
+.tofupancakeLogo {
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -250px;
+}
+
+.tofupancakeLogo:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.logo img {
+  background-color: transparent;
+  background: transparent;
+}
+
+.leaderboard {
+  position: absolute;
+  width: 300px;
+  left: 30px;
+  top: 150px;
+}
+
+.input {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+.help {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: grab;
+}
